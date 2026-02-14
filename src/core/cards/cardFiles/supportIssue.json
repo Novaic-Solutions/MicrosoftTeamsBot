@@ -1,0 +1,51 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "New Support Issue",
+            "horizontalAlignment": "Center",
+            "wrap": true,
+            "style": "heading"
+        },
+        {
+            "type": "Input.Text",
+            "label": "Your Name",
+            "style": "text",
+            "id": "usersName",
+            "isRequired": true,
+            "errorMessage": "Name is required"
+        },
+        {
+            "type": "Input.Text",
+            "label": "Link to pipeline run",
+            "style": "Url",
+            "id": "pipelineUrl",
+            "isRequired": true,
+            "errorMessage": "A link to a pipeline run is requried."
+        },
+        {
+            "type": "Input.Text",
+            "label": "Summary Of Issue",
+            "style": "text",
+            "isMultiline": true,
+            "id": "issueSummary"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit",
+            "data": {
+                "id": "supportIssueSubmit"
+            },
+            "associatedInputs": "auto",
+            "id": "supportIssueSubmit"
+        }
+    ],
+    "id": "supportIssueCard"
+}

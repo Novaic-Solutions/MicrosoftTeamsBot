@@ -1,0 +1,202 @@
+{
+    "type": "TableRow",
+    "cells": [
+        {
+            "type": "TableCell",
+            "items": [
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "25px",
+                                    "horizontalAlignment": "Center",
+                                    "separator": true,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "10",
+                                            "wrap": true,
+                                            "weight": "Bolder",
+                                            "size": "ExtraLarge"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "400px",
+                                    "separator": true,
+                                    "items": [
+                                        {
+                                            "type": "Table",
+                                            "columns": [
+                                                {
+                                                    "type": "TableColumnDefinition",
+                                                    "width": 1
+                                                }
+                                            ],
+                                            "rows": [
+                                                {
+                                                    "type": "TableRow",
+                                                    "cells": [
+                                                        {
+                                                            "type": "TableCell",
+                                                            "items": [
+                                                                {
+                                                                    "type": "ColumnSet",
+                                                                    "columns": [
+                                                                        {
+                                                                            "type": "Column",
+                                                                            "width": "100px",
+                                                                            "items": [
+                                                                                {
+                                                                                    "type": "TextBlock",
+                                                                                    "text": "User Name",
+                                                                                    "wrap": true,
+                                                                                    "weight": "Bolder",
+                                                                                    "horizontalAlignment": "Left"
+                                                                                }
+                                                                            ],
+                                                                            "verticalContentAlignment": "Center"
+                                                                        },
+                                                                        {
+                                                                            "type": "Column",
+                                                                            "width": "stretch",
+                                                                            "items": [
+                                                                                {
+                                                                                    "type": "TextBlock",
+                                                                                    "text": "New TextBlock",
+                                                                                    "wrap": true,
+                                                                                    "horizontalAlignment": "Left"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "TableRow",
+                                                    "cells": [
+                                                        {
+                                                            "type": "TableCell",
+                                                            "items": [
+                                                                {
+                                                                    "type": "ColumnSet",
+                                                                    "columns": [
+                                                                        {
+                                                                            "type": "Column",
+                                                                            "width": "100px",
+                                                                            "items": [
+                                                                                {
+                                                                                    "type": "TextBlock",
+                                                                                    "text": "Pipeline Url",
+                                                                                    "wrap": true,
+                                                                                    "horizontalAlignment": "Left",
+                                                                                    "weight": "Bolder"
+                                                                                }
+                                                                            ],
+                                                                            "verticalContentAlignment": "Center"
+                                                                        },
+                                                                        {
+                                                                            "type": "Column",
+                                                                            "width": "stretch",
+                                                                            "items": [
+                                                                                {
+                                                                                    "type": "TextBlock",
+                                                                                    "text": "New TextBlock",
+                                                                                    "wrap": true,
+                                                                                    "horizontalAlignment": "Left"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "TableRow",
+                                                    "cells": [
+                                                        {
+                                                            "type": "TableCell",
+                                                            "items": [
+                                                                {
+                                                                    "type": "ColumnSet",
+                                                                    "columns": [
+                                                                        {
+                                                                            "type": "Column",
+                                                                            "width": "100px",
+                                                                            "items": [
+                                                                                {
+                                                                                    "type": "TextBlock",
+                                                                                    "text": "Summary",
+                                                                                    "wrap": true,
+                                                                                    "weight": "Bolder",
+                                                                                    "horizontalAlignment": "Left"
+                                                                                }
+                                                                            ],
+                                                                            "verticalContentAlignment": "Center"
+                                                                        },
+                                                                        {
+                                                                            "type": "Column",
+                                                                            "width": "stretch",
+                                                                            "items": [
+                                                                                {
+                                                                                    "type": "TextBlock",
+                                                                                    "text": "New TextBlock",
+                                                                                    "wrap": true,
+                                                                                    "horizontalAlignment": "Left"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "firstRowAsHeaders": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "80px",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "horizontalAlignment": "Left",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.Submit",
+                                                    "title": "Done",
+                                                    "id": "completeIssue",
+                                                    "data": {
+                                                        "id": "2222"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center",
+                                    "horizontalAlignment": "Center",
+                                    "separator": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "separator": true
+}

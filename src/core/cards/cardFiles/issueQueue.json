@@ -1,0 +1,28 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "msTeams": {
+        "width": "full"
+    },
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Current Queue for Issues",
+            "wrap": true
+        },
+        {
+            "type": "Table",
+            "columns": [
+                {
+                    "type": "TableColumnDefinition",
+                    "width": 1
+                }
+            ],
+            "rows": [],
+            "firstRowAsHeaders": false,
+            "horizontalAlignment": "Center",
+            "showGridLines": false
+        }
+    ]
+}

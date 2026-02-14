@@ -1,0 +1,21 @@
+{
+    "webUrl": "",
+    "appApi": "",
+    "clientId": "",
+    "objectId": "",
+    "tennantId": "",
+    "appName": "",
+    "port": 3978,
+    "clientSecretId": "",
+    "clientSecretValue": "",
+    "scopes": [
+        "ChannelMessage.Read.All",
+        "ChannelMessage.Send",
+        "ChannelMessage.ReadWrite",
+        "Channel.ReadBasic.All",
+        "ChannelMember.Read.All",
+        "offline_access"
+    ],
+    "cardFileDirectory": "",
+    "cardSchemaVersion": "1.5"
+}
