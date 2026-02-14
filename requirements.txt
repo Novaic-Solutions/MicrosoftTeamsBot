@@ -1,0 +1,10 @@
+asyncio==3.4.3
+pyyaml==6.0
+tornado==6.1
+botbuilder-ai==4.14.3
+botbuilder-azure==4.14.3
+botbuilder-core==4.14.3
+botbuilder-dialogs==4.14.3
+botbuilder-schema==4.14.3
+botframework-connector==4.14.3
+botframework-streaming==4.14.3

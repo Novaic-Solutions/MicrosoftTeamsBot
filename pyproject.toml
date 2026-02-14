@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "MsTeamsDevopsBot"
+authors = [
+    { name = "James Bolton", email="gimmpy224@gmail.com" },
+]
+description = "A Python Chat Bot for Microsoft Teams written using the Bot Framework SDK provided by Azure."
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+]
+dependencies = [
+    "botbuilder-core",
+    "botbuilder-schema",
+    "botbuilder-dialogs",
+    "tornado",
+    "asyncio",
+    "typing",
+]
